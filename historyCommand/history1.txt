@@ -1,0 +1,274 @@
+#1678783781
+whoami
+#1678784100
+curl -sLf https://gitee.com/HGtz2222/VimForCpp/raw/master/install.sh -o ./install.sh && bash ./install.sh 
+#1678784192
+sudo curl -sLf https://gitee.com/HGtz2222/VimForCpp/raw/master/install.sh -o ./install.sh && bash ./install.sh 
+#1678784245
+su-
+#1678784312
+sudo curl -sLf https://gitee.com/HGtz2222/VimForCpp/raw/master/install.sh -o ./install.sh && bash ./install.sh 
+#1678784388
+source ~/.bashrc
+#1678784400
+vim ~/.vimrc
+#1678785226
+ls
+#1678785235
+cd ~
+#1678785236
+ls
+#1678785247
+cd ..
+#1678785247
+ls
+#1678785252
+cd yzq0207/
+#1678785253
+ls
+#1678785257
+vim install.sh 
+#1678785509
+cd ..
+#1678785509
+ls
+#1678785513
+cd yzq0207/
+#1678785514
+ls
+#1678785555
+mkdir class1
+#1678785556
+ls
+#1678785563
+rm class1/
+#1678785568
+rm -rf class1/
+#1678785569
+ls
+#1678785575
+mkdir lesson1
+#1678785597
+cp lesson1 Linux/
+#1678785605
+mkdir Linux
+#1678785609
+cp lesson1 Linux/
+#1678785615
+cp lesson1 Linux/ -rf
+#1678785616
+ls
+#1678785621
+cd Linux/
+#1678785622
+ls
+#1678785623
+cd ..
+#1678785628
+rm -rf lesson1/
+#1678785628
+ls
+#1678785631
+cd Linux/
+#1678785632
+ls
+#1678785635
+cd lesson1/
+#1678785636
+ls
+#1678785907
+ls -a
+#1678785918
+touch mytest.c
+#1678785927
+ll
+#1678785973
+pwd
+#1678786043
+git --version
+#1678786050
+sudo yum install git
+#1678786237
+cat ~/.gitconfig
+#1678786321
+git config --global user.name "TauCeti0207"
+#1678786379
+git config --global user.email "2076188013@qq.com"
+#1678786382
+cat ~/.gitconfig
+#1678786431
+ssh-keygen -t rsa -C "2076188013@qq.com"
+#1678786535
+cd ~
+#1678786535
+ls
+#1678786539
+ls -a
+#1678786547
+cat .ssh/
+#1678786551
+cd .ssh/
+#1678786552
+ls
+#1678786610
+cat id_rsa.pub
+#1678786732
+ssh -T git@github.com
+#1678786758
+cd ~
+#1678786759
+ssh -T git@github.com
+#1678786894
+ls -al
+#1678786909
+cd .ssh/
+#1678786909
+ls
+#1678786920
+cd ..
+#1678786920
+ls
+#1678786952
+ls
+#1678786959
+rm -rf Linux/
+#1678786959
+ls
+#1678786973
+git clone git@github.com:TauCeti0207/Linux.git
+#1678787064
+ls
+#1678787066
+cd Linux/
+#1678787067
+ls
+#1678787074
+mkdir lesson1
+#1678787075
+ls
+#1678787078
+cd lesson1/
+#1678787086
+touch test.txt
+#1678787087
+ls
+#1678787090
+cd ..
+#1678787093
+git add .
+#1678787123
+git commit -m"230314testGitPush"
+#1678787127
+git push
+#1678787250
+git config --global push.default simple
+#1678787255
+git config --global push.default matching
+#1678795310
+ls
+#1678795316
+cd 10-28/
+#1678795317
+ls
+#1678795318
+cd ..
+#1678795398
+mv -rf 10-28/ 5-13/ 5-14/ 6-14/ 6-20/ 6-22/ 7-2/ old
+#1678795406
+mv -f 10-28/ 5-13/ 5-14/ 6-14/ 6-20/ 6-22/ 7-2/ old
+#1678795411
+mkdir old
+#1678795413
+mv -f 10-28/ 5-13/ 5-14/ 6-14/ 6-20/ 6-22/ 7-2/ old
+#1678795414
+ls
+#1678795444
+mv 6-16/ 7-3/ 8-19/ 9-24/ 9-4/ old
+#1678795445
+ls
+#1678795468
+cd lesson1/
+#1678795481
+cd ..
+#1678795487
+git add .
+#1678795508
+git status
+#1678795534
+git commit -m"230314moveOldFile"
+#1678795538
+git push
+#1678795560
+ls
+#1678795562
+cd lesson1/
+#1678795563
+ls
+#1678795828
+ls -d
+#1678795844
+cd ..
+#1678795845
+ls
+#1678795851
+ls -lh
+#1678796038
+cd
+#1678796040
+ls
+#1678796047
+cd  ..
+#1678796047
+ls
+#1678796062
+cd -
+#1678796063
+ls
+#1678796066
+cd Linux/
+#1678796067
+ls
+#1678796069
+cd lesson1/
+#1678796070
+ls
+#1678796075
+pwd
+#1678796475
+which ll
+#1678796581
+type ll
+#1678796612
+pwd
+#1678797807
+/home
+#1678797811
+cd /home/
+#1678797812
+;s
+#1678797813
+;s
+#1678797814
+ls
+#1678797922
+cd yzq0207/
+#1678797923
+ls
+#1678797926
+cd Linux/
+#1678797932
+mkdir lesson2
+#1678797932
+ls
+#1678797935
+cd lesson2
+#1678797951
+cd ..
+#1678797952
+ls
+#1678797957
+cd lesson2
+#1678798586
+history
+#1678798600
+history -w history1.txt
