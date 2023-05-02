@@ -1,0 +1,23 @@
+struct cpuinfo//包含cpu各种信息
+{
+    // 速度
+    // 核数
+    // 频率
+    // runqueue
+    task_struct* queue;
+}
+struct disk_div
+{
+    // 磁盘属性
+    task_struct* wait_queue;
+}
+struct net_div
+{
+    // 网卡属性 
+    task_struct* wait_queue;
+}
+struct other_div
+{
+    // xx属性
+    task_struct* wait_queue;
+}
