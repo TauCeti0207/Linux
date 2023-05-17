@@ -1,14 +1,13 @@
-/*************************************************************************
-        > File Name: mytest.c
-        > Author: tauceti0207
-        > Mail: 2076188013@qq.com
-        > Created Time: Mon May  1 23:36:53 2023
- ************************************************************************/
-
 #include <stdio.h>
-int main()
-{
-    // ...
+#include <unistd.h>
 
+int main(int argc, char* argv[]) // char* argv[] 指针数组
+{
+    // argc存的是argv数组元素个数
+    // argv里面放的是？
+    for(int i = 0; i < argc; ++i)
+    {
+        printf("argv[%d]:%s\n",i,argv[i]);
+    }	
     return 0;
 }

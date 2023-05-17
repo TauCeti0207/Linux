@@ -1,30 +1,25 @@
-/*************************************************************************
-        > File Name: mytest.c
-        > Author: tauceti0207
-        > Mail: 2076188013@qq.com
-        > Created Time: Mon May  1 23:46:24 2023
- ************************************************************************/
-
-#include <stdio.h>
-#include <unistd.h>
+#include <stdio.h>      
+#include <string.h>
 #include <stdlib.h>
-int main()
+// ./myCal -a 10 20  传入参数共4个
+int main(int argc, char *argv[])
 {
-    pid_t id = fork();
-    if(id == 0){
-        // child
-        int cnt = 5;
-        while(cnt){
-            printf("I am child process, %d S\n", cnt--);
-            sleep(1);
+    if(argc == 4){
+        int x = atoi(argv[2]);
+        int y = atoi(argv[3]);
+        if(strcmp(argv[1], "-a") == 0){
+            printf("%d+%d = %d\n", x,y,x+y);
+        }else if(strcmp(argv[1], "-s") == 0){
+            printf("%d-%d = %d\n", x,y,x-y);
+        }else if(strcmp(argv[1], "-m") == 0){
+            printf("%d*%d = %d\n", x,y,x*y);
+        }else if(strcmp(argv[1], "-d") == 0 && y != 0){
+            printf("%d/%d = %d\n", x,y,x/y);
+        }else{  
+            printf("please use ./myCal [-a|-s|-m|-d] one_data two_data\n");
         }
-        printf("I am child process, I am zombie...\n");
-        exit(0);
-    }else{
-        // father
-        while(1){
-            sleep(1);
-        }
+    }else{  
+        printf("please use ./myCal [-a|-s|-m|-d] one_data two_data\n");
     }
     return 0;
 }
