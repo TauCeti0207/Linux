@@ -5,6 +5,7 @@ int main( void )
 {
 	pid_t pid;
 	printf("Before: pid is %d\n", getpid());
+
 	if ( (pid=fork()) == -1 )
     {
         perror("fork()");
