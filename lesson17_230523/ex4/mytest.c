@@ -12,8 +12,9 @@ int main()
         printf("我是一个子进程,我的pid:%d\n",getpid());
         
         //让子进程执行全新的程序
-        char* const argv[] = {(char*)"ls",(char*)"-a",(char*)"-l",(char*)NULL};//指针数组
-        execv("/usr/bin/ls",argv);
+        //char* const argv[] = {(char*)"ls",(char*)"-a",(char*)"-l",(char*)NULL};//指针数组
+        //execv("/usr/bin/ls",argv);
+        execlp("ls","ls","-a","-l",NULL);//两个ls 含义不同
         exit(1);//只要执行了exit，意味着execl系列的函数就失败了
     }
     // parent process

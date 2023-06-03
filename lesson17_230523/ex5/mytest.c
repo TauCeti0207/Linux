@@ -13,7 +13,9 @@ int main()
         
         //让子进程执行全新的程序
         char* const argv[] = {(char*)"ls",(char*)"-a",(char*)"-l",(char*)NULL};//指针数组
-        execv("/usr/bin/ls",argv);
+        //execv("/usr/bin/ls",argv);
+        //execlp("ls","ls","-a","-l",NULL);//两个ls 含义不同
+        execvp("ls",argv);
         exit(1);//只要执行了exit，意味着execl系列的函数就失败了
     }
     // parent process
