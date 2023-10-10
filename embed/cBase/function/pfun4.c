@@ -19,13 +19,13 @@ int main(int argc, char *argv[])
 
 char * itoa(int n) 
 {
-        int r, i = 0, j;
+        int temp, i = 0, j;
         static char p[50];
 
         while (n) {
-                r = n % 10;
+                temp = n % 10;
                 n /= 10;
-                p[i] = r + '0';
+                p[i] = temp + '0';
                 i++;
         }
         p[i] = '\0';
@@ -34,9 +34,9 @@ char * itoa(int n)
         i = 0;
 
         while (i < j) {
-                r = p[i];
+                temp = p[i];
                 p[i] = p[j];
-                p[j] = r;
+                p[j] = temp;
                 i++;
                 j--;
         }

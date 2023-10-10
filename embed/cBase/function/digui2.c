@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
 {
         int n = 1;
 
-        while (n <= 10) {
+        while (n <= 35) {
                 printf("%d  ", fib(n));
                 n++;
         }

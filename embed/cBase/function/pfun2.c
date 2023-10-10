@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
         char s[50], s2[50];
         
 //        r = del_space(str);
- //       printf("---%s---\n", r);
+        printf("str:---%s---\n", str);
 
         //strcpy(s, del_space(str));
         strcpy(s2, strcpy(s, del_space(str)));//m=n=k
