@@ -1,14 +1,14 @@
 OBJS=f1.o f2.o
 OBJS+=main.o
-CFLAGS=-c -Wall
+CFLAGS=-c -Wall -O -g
 test:$(OBJS)
-	gcc $(OBJS) -o test
-f2.o:$<
-	gcc -c -Wall f2.c -o $@
+	gcc $(OBJS) -o $@ #equal to test
 f1.o:f1.c
-	gcc $(CFLAGS) f1.c -o $@
+	gcc $(CFLAGS) $^ -o $@ #$^ equal to f1.c  the first file
+f2.o:f2.c
+	gcc $(CFLAGS) $< -o $@ #$@ equal to f2.o  $< equal to f2.c
 main.o:main.c
-	gcc -c -Wall main.c -o main.o
+	gcc $(CFLAGS) $< -o $@
 .PHONY:clean
 clean:
-	rm *.o test
+	rm $(OBJS) test
