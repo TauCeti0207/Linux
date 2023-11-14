@@ -1,0 +1,4 @@
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/install/bin/Demo
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/install/include/config.h
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/install/lib/libMathFunctions.a
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/install/include/MathFunctions.h

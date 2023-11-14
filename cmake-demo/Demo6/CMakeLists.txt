@@ -7,9 +7,12 @@ project (Demo6)
 set (CMAKE_INCLUDE_CURRENT_DIR ON)
 
 # 检查系统是否支持 pow 函数
+# 使用了CMake的CheckFunctionExists函数，检查系统是否支持pow函数，并将结果存储在HAVE_POW变量中
+# ${CMAKE_ROOT} 变量包含了CMake的安装路径，即CMake可执行文件和相关文件所在的目录。
 include (${CMAKE_ROOT}/Modules/CheckFunctionExists.cmake)
 check_function_exists (pow HAVE_POW)
 
+# 通过configure_file命令，将${PROJECT_SOURCE_DIR}/config.h.in中的内容配置到${PROJECT_BINARY_DIR}/config.h中。这样可以根据配置文件的内容定义一些宏，比如#cmakedefine HAVE_POW。
 # 加入一个配置头文件，用于处理 CMake 对源码的设置
 configure_file (
   "${PROJECT_SOURCE_DIR}/config.h.in"

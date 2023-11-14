@@ -1,0 +1,16 @@
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/build/CMakeFiles/Demo.dir
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/build/CMakeFiles/test.dir
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/build/CMakeFiles/edit_cache.dir
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/build/CMakeFiles/rebuild_cache.dir
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/build/CMakeFiles/list_install_components.dir
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/build/CMakeFiles/install.dir
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/build/CMakeFiles/install/local.dir
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/build/CMakeFiles/install/strip.dir
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/build/math/CMakeFiles/MathFunctions.dir
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/build/math/CMakeFiles/test.dir
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/build/math/CMakeFiles/edit_cache.dir
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/build/math/CMakeFiles/rebuild_cache.dir
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/build/math/CMakeFiles/list_install_components.dir
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/build/math/CMakeFiles/install.dir
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/build/math/CMakeFiles/install/local.dir
+/home/yzq0207/Desktop/Linux/cmake-demo/Demo5/build/math/CMakeFiles/install/strip.dir
