@@ -12,9 +12,10 @@ void processbar(int rate)
 		return;
 
 	int len = strlen(lable);
-	printf(GREEN "[%-100s]" NONE "[%d%%][%c]\r", bar, rate, lable[rate % len]); // 没有\n,就没有立即刷新，因为显示器模式是行刷新
+	// NONE表示关闭颜色输出
+	printf(GREEN "%-100s" ANSI_COLOR_RED "[%d%%]" ANSI_COLOR_BLUE "[%c]\r" NONE, bar, rate, lable[rate % len]);
 	fflush(stdout);
-	bar[rate++] = STYLE;
+	bar[rate++] = STYLE; // 使用绿色色块;
 	if (rate < 100)
 		bar[rate] = RIGHT;
 }

@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-Wall
-SOURCES=test.c processBar.c
+SOURCES=test.c
 OBJECTS=$(SOURCES:.c=.o)
 EXECUTABLE=test
 
