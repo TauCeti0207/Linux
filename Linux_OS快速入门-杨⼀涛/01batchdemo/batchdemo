@@ -1,0 +1,5 @@
+mkdir newdir2
+cd newdir2
+touch newfile2
+cd ..
+
