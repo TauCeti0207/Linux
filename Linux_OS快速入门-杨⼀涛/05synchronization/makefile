@@ -1,8 +1,8 @@
 CC=gcc
-CFLAGS=-Wall -g
-SOURCES=process4.c
+CFLAGS=-Wall -g -pthread -fopenmp
+SOURCES=ticketbooking2.c
 OBJECTS=$(SOURCES:.c=.o)
-EXECUTABLE=process4
+EXECUTABLE=ticketbooking2
 
 all:$(EXECUTABLE) 
 

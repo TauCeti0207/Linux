@@ -1,8 +1,8 @@
 CC=gcc
 CFLAGS=-Wall -g -pthread -fopenmp
-SOURCES=hellothread2.c
+SOURCES=hellothread3.c
 OBJECTS=$(SOURCES:.c=.o)
-EXECUTABLE=hellothread2
+EXECUTABLE=hellothread3
 
 all:$(EXECUTABLE) 
 
