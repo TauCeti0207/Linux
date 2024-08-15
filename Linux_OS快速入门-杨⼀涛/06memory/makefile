@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-Wall -g -pthread -fopenmp
-SOURCES=barber_customer.c
+SOURCES=sample.c
 EXECUTABLE=$(patsubst %.c,%,$(SOURCES))
 OBJECTS=$(SOURCES:.c=.o)
 
