@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-Wall -g -pthread -std=c99
-SOURCES=mytest.c
+SOURCES=myshell.c
 EXECUTABLE=$(patsubst %.c,%,$(SOURCES))
 OBJECTS=$(SOURCES:.c=.o)
 
