@@ -1,0 +1,19 @@
+hello1.txt
+makefile
+[0m[01;32mmyshell[0m
+myshell.c
+总计 36
+-rw-rw-r--. 1 yzq0207 yzq0207    54  8月 25 23:21 hello1.txt
+-rw-rw-r--. 1 yzq0207 yzq0207   244  8月 25 22:31 makefile
+-rwxrwxr-x. 1 yzq0207 yzq0207 20176  8月 25 23:21 [0m[01;32mmyshell[0m
+-rw-rw-r--. 1 yzq0207 yzq0207  5866  8月 25 23:21 myshell.c
+总计 36
+-rw-rw-r--. 1 yzq0207 yzq0207   322  8月 25 23:23 hello1.txt
+-rw-rw-r--. 1 yzq0207 yzq0207   244  8月 25 22:31 makefile
+-rwxrwxr-x. 1 yzq0207 yzq0207 20176  8月 25 23:21 [0m[01;32mmyshell[0m
+-rw-rw-r--. 1 yzq0207 yzq0207  5866  8月 25 23:21 myshell.c
+总计 36
+-rw-rw-r--. 1 yzq0207 yzq0207   590  8月 25 23:23 hello1.txt
+-rw-rw-r--. 1 yzq0207 yzq0207   244  8月 25 22:31 makefile
+-rwxrwxr-x. 1 yzq0207 yzq0207 20176  8月 25 23:21 [0m[01;32mmyshell[0m
+-rw-rw-r--. 1 yzq0207 yzq0207  5866  8月 25 23:21 myshell.c
