@@ -44,8 +44,8 @@ _FILE *_fopen(const char *filename, const char *flag)
 		return NULL;
 
 	fp->fileno = fd;
-	// fp->flag = FLUSH_LINE;
-	fp->flag = FLUSH_ALL;
+	fp->flag = FLUSH_LINE;
+	// fp->flag = FLUSH_ALL;
 	fp->out_pos = 0;
 
 	return fp;

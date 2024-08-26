@@ -4,12 +4,12 @@
  * @version:
  * @Date: 2024-08-26 19:02:15
  * @LastEditors: tauceti0207
- * @LastEditTime: 2024-08-26 19:03:43
+ * @LastEditTime: 2024-08-26 19:44:04
  */
-#include "Mystdio.h"
+#include "mystdio.h"
 #include <unistd.h>
 
-#define myfile "test.txt"
+#define myfile "log.txt"
 
 int main()
 {

@@ -4,7 +4,7 @@
  * @version:
  * @Date: 2024-08-26 19:03:58
  * @LastEditors: tauceti0207
- * @LastEditTime: 2024-08-26 19:06:42
+ * @LastEditTime: 2024-08-26 19:33:36
  */
 // #pragma once
 #ifndef __MYSTDIO_H__
@@ -21,11 +21,11 @@
 typedef struct IO_FILE
 {
 	int fileno; // fd
-	int flag;
-	// char inbuffer[SIZE];
+	int flag;	// 刷新方式 立即刷新、行刷新、全刷新
+	// char inbuffer[SIZE]; //输入缓冲区
 	// int in_pos;
-	char outbuffer[SIZE]; // 用一下这个
-	int out_pos;
+	char outbuffer[SIZE]; // 输出缓冲区
+	int out_pos;		  //
 } _FILE;
 
 _FILE *_fopen(const char *filename, const char *flag);
