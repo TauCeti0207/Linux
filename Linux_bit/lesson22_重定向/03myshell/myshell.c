@@ -4,7 +4,7 @@
  * @version:
  * @Date: 2024-08-23 13:21:33
  * @LastEditors: tauceti0207
- * @LastEditTime: 2024-08-25 23:37:06
+ * @LastEditTime: 2024-08-26 11:22:28
  */
 #include <stdio.h>
 #include <pwd.h>
@@ -149,7 +149,7 @@ void normal_execute(char *_argv[]) // 修改参数的名字，不和全局变量
 	else if (id == 0)
 	{
 		int fd = 0;
-		// 后面做了重定向的工作，程序替换不受影响吗
+		// 做了重定向的工作，程序替换不受影响吗?
 		if (rdir == IN_RDIR)
 		{
 			fd = open(rdirfilename, O_RDONLY);
