@@ -13,8 +13,8 @@
 #include <sys/wait.h>
 
 #define TASK_NUM 3
-typedef void (*task_t)();
-task_t tasks[TASK_NUM];
+typedef void (*task_t)(); // 函数指针,指向没有参数且没有返回值的函数
+task_t tasks[TASK_NUM];	  // 函数指针数组
 
 void task1()
 {
@@ -90,7 +90,7 @@ void execute_task()
 	{
 		if (!tasks[i])
 			continue;
-		tasks[i]();
+		tasks[i](); // 调用函数
 	}
 }
 int main()
@@ -106,7 +106,7 @@ int main()
 			printf("我是子进程，我的pid：%d，我的ppid：%d cnt: %d\n", getpid(), getppid(), cnt--);
 			sleep(1);
 		}
-		exit(10);
+		exit(10); // 退出码
 	}
 	else if (id > 0)
 	{
@@ -137,7 +137,7 @@ int main()
 			else if (ret == 0) // 调用函数立即返回才会执行这个语句
 			{
 				// 等待成功了，但是子进程没有退出
-				printf("子进程未准备好，父进程做其他事情...\n");
+				printf("子进程未准备好，父进程做其他事情... 父进程pid:%d\n", getpid());
 				execute_task();
 				sleep(1);
 			}
