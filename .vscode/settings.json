@@ -3,5 +3,7 @@
         "types.h": "c",
         "unistd.h": "c",
         "stdio.h": "c"
-    }
+	},
+	"cmake.sourceDirectory": "/home/yzq0207/Linux",
+	// "editor.formatOnSave": true
 }
