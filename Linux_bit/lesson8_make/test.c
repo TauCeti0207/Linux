@@ -5,13 +5,13 @@
         > Created Time: Fri Apr 28 12:53:56 2023
  ************************************************************************/
 
-#include"test.h"
+#include "test.h"
 
-void show()
-{
-  printf("you can see me!\n");
-  printf("you can see me!\n");
-  printf("you can see me!\n");
-  printf("you can see me!\n");
-  printf("you can see me!\n");
+void show() {
+	printf("this is test.c\n");
+	printf("you can see me!\n");
+	printf("you can see me!\n");
+	printf("you can see me!\n");
+	printf("you can see me!\n");
+	printf("you can see me!\n");
 }

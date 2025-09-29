@@ -1,4 +1,0 @@
-基本指令和基本权限
-权限掩码
-
-vum vim gdb make makefile
